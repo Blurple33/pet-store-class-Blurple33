@@ -4,11 +4,135 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pet Store</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+	<header class="container">
+		<!-- Header Row Begins -->
+		<div class="row">
+			<div class="flex-wrapper"><!--flex wrapper-->
+				<div class="col-xs-8 col-sm-4 col-md-6">
+				<a href="index.html">
+				<img src="img/petstore_logo.png" alt="Pet Store Logo" id="header-logo" class="img-responsive pull-left">
+				<h1 id="logo-style" class="pull-left">Pet Store</h1>
+  			</a>
+			</div>
+	<!-- Navigation Beginis -->
+		<nav class="col-xs-12 col-sm-8 col-md-6">
+			<ul class="nav nav-tabs pull-right">
+				<li role="presentation" class ="active"><a href="#">Home</a></li>
+				<li role="presentation"><a href="#">Products</a></li>
+				<li role="presentation"><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	<!-- Navigation Ends -->
+		</div> <!--Flex wrapper ends-->
+	</div>
+  <!-- Header Row ends Here -->
+	</header>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="text-center text-uppercase">
+				<h2>the products they love.  the prices that you like</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7"> <!-- Featured Section Begins-->
+				<div class="row">
+					<div class="col-md-12">
+						<h1 id="featured-title" class="text-uppercase">featured</h1>
+						<p id="featured-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis corporis nisi voluptas, optio, velit rem quos consectetur nobis necessitatibus delectus provident repudiandae libero atque, praesentium molestiae! Ab earum tempora animi.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4"> <!-- Dog Bowl Thumbnail Begins-->
+						<div class="row thumb-background">
+							<div class="col-xs-6 col-sm-12">
+									<img src="img/product1.jpg" alt="dog bowl" class="img-responsive">
+							</div>
+									<div class="caption col-sm-12 col-xs-6">
+										<h3>Dog Bowl</h3>
+										<p>The best bowl for your dog!</p>
+										<button class="btn btn-info btn-xs" role="button">Purchase Now</button>
+							</div>
+						</div>
+					</div><!-- Dog Bowl Ends-->
+					<div class="col-md-4"> <!--cat toys section begins -->
+						<div class="row thumb-background">
+							<div class="col-xs-6 col-sm-12">
+								<img src="img/product2.jpg" alt="Cat Toys" class="img-responsive">
+						</div>
+								<div class="caption col-sm-12 col-xs-6">
+									<h3>Catdog Bowl</h3>
+									<p>The best bowl for your cat-like animal!</p>
+									<button class="btn btn-info btn-xs" role="button">Purchase Now</button>
+						</div>
+					</div>
+				</div><!-- cat toys Ends-->
+				<div class="col-md-4"> <!--parrot section begins -->
+					<div class="row thumb-background">
+						<div class="col-xs-6 col-sm-12">
+							<img src="img/product3.jpg" alt="Cat Toys" class="img-responsive">
+					</div>
+							<div class="caption col-sm-12 col-xs-6">
+								<h3>Parrot Whips</h3>
+								<p>The best bowl for your parrot!</p>
+								<button class="btn btn-info btn-xs" role="button">Purchase Now</button>
+					</div>
+				</div>
+			</div><!-- parrot section Ends-->
+			</div> <!-- Featured Section end-->
+		</div>
+			<div class="col-md-3 col-md-offset-2 text-center"> <!--Services Section Begins -->
+				<h1 class="text-uppercase">services</h1>
+				<ul class="nav nav-pills nav-stacked">
+					<li role="presentation">
+						<a href="#">Adopt A Dog</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					</li>
+						<li role="presentation">
+							<a href="#">Adopt A Cat</a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+						</li>
+						<li role="presentation">
+							<a href="#">Adopt A Parrot</a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+						</li>
+				</ul>
+			</div><!-- Services Section Ends -->
+		</div>
+	</div><!-- Featured and services section ends -->
+	<footer class="container-fluid">
+		<div class="container">
+			<div class="row"> <!-- Footer Content Section -->
+				<div class="col-sm-3 right-border"><!--Footer Logo Begins-->
+					<img src="img/petstore_logo.png" alt="Pet Store Logo" class="img-responsive" id="footer-logo">
+				</div><!--Footer Logo Ends -->
+				<div class="col-sm-3 right-border"><!--Footer address begins-->
+					<addres>
+						<a href="#">
+							Pet Store </br>
+							Fresno, CA </br>
+						</a>
+						<a href="mailto:contact@petstore.com">info@petstore.com</a>
+					</addres>
+				</div><!--footer address ends -->
+				<div class="col-sm-3"><!--Footer social media-->
+					<p><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</p>
+					<p><i class="fa fa-facebook" aria-hidden="true"></i>  Facebook</p>
+					<p><i class="fa fa-linkedin" aria-hidden="true"></i>  Linked In</p>
 
+				</div><!--footer social media ends-->
+			</div><!--Footer Content Ends-->
+			<div class="row"><!--copyright start-->
+			<div class="col-xs-12 text-center">
+				<p>&copy; Pet Store Inc. All Rights Reserved</p>
+			</div><!--copyright ends-->
+		</footer>
 	<!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
