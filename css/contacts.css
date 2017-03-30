@@ -1,0 +1,24 @@
+.gutter-top {
+  padding-top: 15px
+}
+
+.green {
+  /*background-color: lightgreen;*/
+  height: 500px;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.flexbox .a {
+  justify-content: flex-end;
+  align-self: center;
+}
+
+#map {
+  height: 200px;
+  width: 555px;
+  background-color: pink;
+}
